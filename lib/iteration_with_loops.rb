@@ -3,7 +3,7 @@ def join_nested_strings(src)
   src.each do |arr| 
     arr.each do |e| 
       if (e.is_a?(String))
-        string += e
+        string += e + " "
       end
     end
   end
