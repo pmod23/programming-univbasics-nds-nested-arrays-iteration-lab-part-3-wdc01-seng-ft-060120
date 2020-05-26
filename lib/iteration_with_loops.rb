@@ -2,7 +2,7 @@ def join_nested_strings(src)
   string = ""
   src.each |arr| do
     arr.each |e| do
-      if e.is_a?(String)
+      if (e.is_a?(String))
         string += e
       end
     end
